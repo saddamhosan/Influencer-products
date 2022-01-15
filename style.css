@@ -95,11 +95,11 @@ button {
 }
 /* icons part */
 .icons {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   margin: 50px 50px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 30px;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -110,6 +110,9 @@ button {
     rgb(246, 247, 248)
   );
   border-image-slice: 1;
+}
+.icons span {
+  padding: 0 20px;
 }
 /* card-section */
 .card-section {
@@ -270,9 +273,7 @@ footer small {
   .banner-right {
     order: 1;
   }
-  .icons {
-    grid-template-columns: repeat(4, 1fr);
-  }
+
   .cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -309,9 +310,7 @@ footer small {
     font-size: 35px;
     line-height: 50px;
   }
-  .icons {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
   .cards {
     grid-template-columns: 1fr;
   }

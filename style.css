@@ -96,8 +96,13 @@ button {
   padding: 30px;
   border-top: 2px solid;
   border-bottom: 2px solid;
-  border-image: linear-gradient(to left, #c0ccda 10%, #c0ccda 60%, #c0ccda 10%);
-  border-image-slice: 4;
+  border-image: linear-gradient(
+    to right,
+    #c0ccda 10%,
+    #c0ccda 60%,
+    #c0ccda 10%
+  );
+  border-image-slice: 1;
 }
 /* card-section */
 .card-section {
@@ -195,9 +200,19 @@ button {
   font-size: 40px;
 }
 .extra-left h2 {
+  display: inline-block;
   font-size: 30px;
   line-height: 1.2em;
   color: #e02c6e;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    to right,
+    #c0ccda 10%,
+    #c0ccda 60%,
+    #c0ccda 10%
+  );
+  border-image-slice: 1;
 }
 .extra-left p {
   font-size: 20px;

@@ -298,6 +298,12 @@ footer small {
   }
 }
 @media (max-width: 600px) {
+  nav h1 {
+    font-size: 25px;
+  }
+  .hadline {
+    font-size: 30px;
+  }
   .banner-left h1 {
     font-size: 35px;
     line-height: 50px;

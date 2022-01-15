@@ -94,13 +94,13 @@ button {
   align-items: center;
   justify-content: center;
   padding: 30px;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   border-image: linear-gradient(
-    to right,
-    #c0ccda 10%,
-    #c0ccda 60%,
-    #c0ccda 10%
+    to left,
+    rgb(246, 247, 248),
+    rgb(197, 204, 212),
+    rgb(246, 247, 248)
   );
   border-image-slice: 1;
 }
@@ -204,13 +204,13 @@ button {
   font-size: 30px;
   line-height: 1.2em;
   color: #e02c6e;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   border-image: linear-gradient(
-    to right,
-    #c0ccda 10%,
-    #c0ccda 60%,
-    #c0ccda 10%
+    to left,
+    rgb(246, 247, 248),
+    rgb(197, 204, 212),
+    rgb(246, 247, 248)
   );
   border-image-slice: 1;
 }

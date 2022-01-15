@@ -291,7 +291,7 @@ footer small {
     text-align: center;
     background-color: #fff;
     transform: translateY(-500px);
-    transition: 0.5s;
+    transition: transform 0.3s linear;
   }
   #nav-toggler:checked ~ ul {
     transform: translateY(0);

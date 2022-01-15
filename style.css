@@ -298,6 +298,13 @@ footer small {
   #nav-toggler:checked ~ ul {
     transform: translateY(0);
   }
+  .extra-left {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+  }
 }
 @media (max-width: 600px) {
   nav h1 {

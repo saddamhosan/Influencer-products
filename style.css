@@ -29,7 +29,13 @@ nav > ul {
 }
 nav > ul > li {
   list-style: none;
-  margin: 15px;
+  padding: 20px;
+}
+nav > ul > li:hover > a {
+  padding: 0px 5px;
+  border-radius: 20px;
+  background: #e02c6d;
+  color: #fff;
 }
 nav > ul > li > a {
   text-decoration: none;
@@ -125,13 +131,13 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  padding: 25px;
+  background: #ebebeb;
+  box-shadow: 0px 0px 40px #fff;
+  padding: 30px;
 }
 .card-image img {
   width: 100%;
+  border-radius: 8px;
 }
 .card-detail h1 {
   font-weight: 500;
@@ -286,7 +292,7 @@ footer small {
     text-align: center;
     background-color: #fff;
     transform: translateY(-500px);
-    transition: transform 0.5s linear;
+    transition: 0.5s linear;
   }
   #nav-toggler:checked ~ ul {
     transform: translateY(0);
